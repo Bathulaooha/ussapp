@@ -1,0 +1,1190 @@
+.mainscreen {
+    height: 641px;
+    background-color: rgb(241, 235, 235);
+}
+
+.delivery {
+    position: absolute;
+    color: rgb(99, 92, 92);
+    font-size: 15px;
+    top: 11px;
+    left: 10px;
+}
+
+.location {
+    position: absolute;
+    color: rgb(17, 16, 16);
+    font-size: 23px;
+    top: 29px;
+    left: 8px;
+    width: 178px;
+    -unity-font-style: bold;
+}
+
+.locationdropdown {
+    position: absolute;
+    width: 61px;
+    left: 193px;
+    top: 28px;
+    font-size: 20px;
+    color: rgb(255, 249, 249);
+    -unity-text-align: upper-left;
+}
+
+.searchbar {
+    position: absolute;
+    top: 68px;
+    left: 9px;
+    width: 291px;
+    height: 30px;
+    background-color: rgb(22, 20, 20);
+    color: rgb(221, 208, 208);
+}
+
+.filters {
+    position: absolute;
+    top: 68px;
+    left: 310px;
+    background-image: url('project://database/Assets/assets/filters.png?fileID=2800000&guid=22d731f1fa19f1941826823727f8780a&type=3#filters');
+    background-color: rgb(250, 235, 235);
+    width: 33px;
+    height: 28px;
+}
+
+.topscroll {
+    position: absolute;
+    height: 98px;
+    width: 350px;
+    top: 109px;
+    left: 7px;
+    display: flex;
+    visibility: visible;
+    overflow: visible;
+}
+
+.offers {
+    width: 74px;
+    height: 58px;
+    background-color: rgb(183, 146, 163);
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-image: url('project://database/Assets/assets/offers.png?fileID=2800000&guid=1eb414df5d881254680925974a4dcbb3&type=3#offers');
+}
+
+.offerslabel {
+    position: absolute;
+    height: 10px;
+    width: 71px;
+    top: 70px;
+    left: 2px;
+    color: rgb(12, 11, 11);
+}
+
+.burger {
+    width: 79px;
+    height: 58px;
+    background-color: rgb(183, 146, 163);
+    position: absolute;
+    top: 7px;
+    left: 96px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-image: url('project://database/Assets/assets/burger.jpg?fileID=2800000&guid=81abda76c5b46544da647d7ac264e64e&type=3#burger');
+}
+
+.burgerlabel {
+    position: absolute;
+    height: 10px;
+    width: 75px;
+    top: 70px;
+    left: 2px;
+    color: rgb(12, 11, 11);
+}
+
+.asian {
+    width: 67px;
+    height: 58px;
+    background-color: rgb(183, 146, 163);
+    position: absolute;
+    top: 7px;
+    left: 191px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-image: url('project://database/Assets/assets/asian.png?fileID=2800000&guid=517174d3a1a16a84ca31535afc490076&type=3#asian');
+}
+
+.asianlabel {
+    position: absolute;
+    height: 10px;
+    width: 62px;
+    top: 70px;
+    left: 2px;
+    color: rgb(12, 11, 11);
+}
+
+.pizza {
+    width: 71px;
+    height: 58px;
+    background-color: rgb(183, 146, 163);
+    position: absolute;
+    top: 7px;
+    left: 268px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-image: url('project://database/Assets/assets/pizza.jpg?fileID=2800000&guid=f63f73f9a18f03f49860ecf86251c90e&type=3#pizza');
+}
+
+.pizzalabel {
+    position: absolute;
+    height: 10px;
+    width: 64px;
+    top: 70px;
+    left: 2px;
+    color: rgb(12, 11, 11);
+}
+
+.midscrollview {
+    position: absolute;
+    height: 308px;
+    width: 339px;
+    top: 214px;
+    left: 8px;
+}
+
+.cafe1 {
+    position: absolute;
+    height: 126px;
+    width: 306px;
+    top: 15px;
+    left: 16px;
+    background-color: rgb(135, 126, 126);
+    background-image: url('project://database/Assets/assets/cafe.jpg?fileID=2800000&guid=b43eb8533d9d08541ad34d6e566edf00&type=3#cafe');
+}
+
+.cafe1label {
+    position: absolute;
+    top: 126px;
+    left: -2px;
+    width: 304px;
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(26, 25, 25);
+}
+
+.cafe1time {
+    position: absolute;
+    top: 102px;
+    left: 223px;
+    width: 75px;
+    background-color: rgb(245, 242, 242);
+    color: rgb(19, 19, 19);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+}
+
+.cafe1rating {
+    position: absolute;
+    width: 98px;
+    top: 151px;
+    left: -1px;
+    color: rgb(176, 70, 70);
+}
+
+.cafe1food {
+    position: absolute;
+    width: 152px;
+    top: 151px;
+    left: 92px;
+    color: rgb(113, 105, 105);
+}
+
+.cafe2 {
+    position: absolute;
+    height: 126px;
+    width: 306px;
+    top: 190px;
+    left: 15px;
+    background-color: rgb(135, 126, 126);
+    background-image: url('project://database/Assets/assets/cafe2.png?fileID=2800000&guid=0ec81584a701c0846a10e3ed92385108&type=3#cafe2');
+}
+
+.cafe2label {
+    position: absolute;
+    top: 126px;
+    left: -2px;
+    width: 304px;
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(26, 25, 25);
+}
+
+.cafe2time {
+    position: absolute;
+    top: 102px;
+    left: 223px;
+    width: 75px;
+    background-color: rgb(245, 242, 242);
+    color: rgb(19, 19, 19);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+}
+
+.cafe2rating {
+    position: absolute;
+    width: 98px;
+    top: 151px;
+    left: -1px;
+    color: rgb(176, 70, 70);
+}
+
+.cafe3 {
+    position: absolute;
+    height: 126px;
+    width: 306px;
+    top: 368px;
+    left: 16px;
+    background-color: rgb(135, 126, 126);
+    background-image: url('project://database/Assets/assets/cafe3.jpg?fileID=2800000&guid=9112b309dbcd28c4e815deae076bec26&type=3#cafe3');
+}
+
+.cafe3label {
+    position: absolute;
+    top: 126px;
+    left: -2px;
+    width: 304px;
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(26, 25, 25);
+}
+
+.cafe3time {
+    position: absolute;
+    top: 102px;
+    left: 223px;
+    width: 75px;
+    background-color: rgb(245, 242, 242);
+    color: rgb(19, 19, 19);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+}
+
+.cafe3rating {
+    position: absolute;
+    width: 98px;
+    top: 151px;
+    left: -1px;
+    color: rgb(176, 70, 70);
+}
+
+.cafe3food {
+    position: absolute;
+    width: 152px;
+    top: 151px;
+    left: 92px;
+    color: rgb(113, 105, 105);
+}
+
+.navbar {
+    position: absolute;
+    height: 102px;
+    width: 332px;
+    top: 532px;
+    left: 17px;
+    background-color: rgb(245, 237, 237);
+}
+
+.button1 {
+    position: absolute;
+    height: 75px;
+    width: 78px;
+    top: 15px;
+    left: 8px;
+    background-color: rgb(245, 239, 239);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.restuarantlabel {
+    position: absolute;
+    height: 35px;
+    width: 38px;
+    background-color: rgb(115, 105, 105);
+    top: 13px;
+    left: 20px;
+    background-image: url('project://database/Assets/assets/restuarant.png?fileID=2800000&guid=05fd7f6762504fe4c80879382a57bd9d&type=3#restuarant');
+}
+
+.restuarant {
+    position: absolute;
+    top: 36px;
+    left: -13px;
+    color: rgb(19, 18, 18);
+    width: 67px;
+}
+
+.button2 {
+    position: absolute;
+    height: 75px;
+    width: 78px;
+    top: 14px;
+    left: 117px;
+    background-color: rgb(245, 239, 239);
+}
+
+.offerlabel {
+    position: absolute;
+    height: 35px;
+    width: 38px;
+    background-color: rgb(115, 105, 105);
+    top: 13px;
+    left: 20px;
+    background-image: url('project://database/Assets/assets/offer.png?fileID=2800000&guid=d5758f4df70ed3345b7b2b8d42008934&type=3#offer');
+}
+
+.offer {
+    position: absolute;
+    top: 36px;
+    left: -13px;
+    color: rgb(19, 18, 18);
+    width: 67px;
+}
+
+.button3 {
+    position: absolute;
+    height: 75px;
+    width: 78px;
+    top: 14px;
+    left: 228px;
+    background-color: rgb(245, 239, 239);
+}
+
+.accountlabel {
+}
+
+.account {
+}
+
+.cafe1ve {
+}
+
+.cafe1label {
+    top: 195px;
+    left: 7px;
+    color: rgb(24, 23, 23);
+}
+
+.cafe1rating {
+    top: 219px;
+    left: 9px;
+}
+
+.cafe1food {
+    top: 220px;
+    left: 104px;
+}
+
+.cafe1button {
+    height: 195px;
+    background-image: url('project://database/Assets/assets/cafe.jpg?fileID=2800000&guid=b43eb8533d9d08541ad34d6e566edf00&type=3#cafe');
+}
+
+.cafe1time {
+    top: 166px;
+    left: 237px;
+}
+
+.cafe2ve {
+    position: absolute;
+    height: 256px;
+    width: 331px;
+    background-color: rgb(245, 244, 244);
+    top: 244px;
+    left: -3px;
+}
+
+.cafe2label {
+    top: 195px;
+    left: 7px;
+    color: rgb(24, 23, 23);
+}
+
+.cafe2rating {
+    top: 219px;
+    left: 9px;
+}
+
+.cafe2food {
+    top: 220px;
+    left: 104px;
+}
+
+.cafe2food {
+}
+
+.cafe2button {
+    height: 195px;
+    background-image: url('project://database/Assets/assets/cafe2.png?fileID=2800000&guid=0ec81584a701c0846a10e3ed92385108&type=3#cafe2');
+}
+
+.cafe2time {
+    top: 166px;
+    left: 237px;
+}
+
+.cafe3ve {
+    position: absolute;
+    height: 256px;
+    width: 331px;
+    background-color: rgb(245, 244, 244);
+    top: 501px;
+    left: -5px;
+}
+
+.cafe3label {
+    top: 195px;
+    left: 7px;
+    color: rgb(24, 23, 23);
+}
+
+.cafe3rating {
+    top: 219px;
+    left: 9px;
+}
+
+.cafe3food {
+    top: 220px;
+    left: 104px;
+}
+
+.cafe3button {
+    height: 195px;
+    background-image: url('project://database/Assets/assets/cafe3.jpg?fileID=2800000&guid=9112b309dbcd28c4e815deae076bec26&type=3#cafe3');
+}
+
+.cafe3time {
+    top: 166px;
+    left: 237px;
+}
+
+.screen {
+    position: absolute;
+    height: 642px;
+    width: 368px;
+    top: 2px;
+    left: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+.search {
+    top: 25px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    right: 354px;
+}
+
+.filter {
+    height: 32px;
+    width: 36px;
+    top: 20px;
+    left: 321px;
+    background-color: rgb(255, 255, 255);
+}
+
+.top {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 37px;
+    width: 356px;
+    top: 70px;
+    left: 6px;
+}
+
+.choices {
+    color: rgb(176, 52, 52);
+    font-size: 20px;
+    -unity-font-style: bold;
+    position: absolute;
+    top: 7px;
+    left: 6px;
+}
+
+.choicesshow {
+    position: absolute;
+    background-color: rgb(255, 254, 254);
+    color: rgb(140, 131, 131);
+    top: 10px;
+    left: 282px;
+}
+
+.choicesscroll {
+    position: absolute;
+    height: 185px;
+    width: 342px;
+    top: 106px;
+    left: 10px;
+    background-color: rgb(238, 223, 223);
+}
+
+.choice1ve {
+    position: absolute;
+    height: 166px;
+    width: 195px;
+    top: 3px;
+    left: 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.choice1 {
+    position: absolute;
+    width: 179px;
+    height: 117px;
+    top: 10px;
+    left: 3px;
+    color: rgb(17, 16, 16);
+    background-color: rgb(238, 232, 232);
+    background-image: url('project://database/Assets/assets/cafe.jpg?fileID=2800000&guid=b43eb8533d9d08541ad34d6e566edf00&type=3#cafe');
+}
+
+.choice1label {
+    position: absolute;
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    top: 128px;
+    left: 8px;
+    -unity-font-style: bold;
+    width: 98px;
+}
+
+.choice1food {
+    color: rgb(103, 97, 97);
+    position: absolute;
+    top: 146px;
+    left: 9px;
+}
+
+.choice2ve {
+    position: absolute;
+    height: 166px;
+    width: 195px;
+    top: 1px;
+    left: 206px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.choice2 {
+    position: absolute;
+    width: 179px;
+    height: 117px;
+    top: 10px;
+    left: 3px;
+    color: rgb(17, 16, 16);
+    background-color: rgb(238, 232, 232);
+    background-image: url('project://database/Assets/assets/icecream.jpg?fileID=2800000&guid=e3cebd545c251654e9cb0cf320141721&type=3#icecream');
+}
+
+.choice2label {
+    position: absolute;
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    top: 128px;
+    left: 8px;
+    -unity-font-style: bold;
+    width: 98px;
+}
+
+.choice2food {
+    color: rgb(103, 97, 97);
+    position: absolute;
+    top: 146px;
+    left: 9px;
+}
+
+.choice3ve {
+    position: absolute;
+    height: 166px;
+    width: 195px;
+    top: -1px;
+    left: 407px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.choice3 {
+    position: absolute;
+    width: 179px;
+    height: 117px;
+    top: 10px;
+    left: 3px;
+    color: rgb(17, 16, 16);
+    background-color: rgb(238, 232, 232);
+    background-image: url('project://database/Assets/assets/cafe.jpg?fileID=2800000&guid=b43eb8533d9d08541ad34d6e566edf00&type=3#cafe');
+}
+
+.choice3label {
+    position: absolute;
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    top: 128px;
+    left: 8px;
+    -unity-font-style: bold;
+    width: 98px;
+}
+
+.choice3food {
+    color: rgb(103, 97, 97);
+    position: absolute;
+    top: 146px;
+    left: 9px;
+}
+
+.mid {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 37px;
+    width: 356px;
+    top: 293px;
+    left: 2px;
+}
+
+.new {
+    color: rgb(176, 52, 52);
+    font-size: 20px;
+    -unity-font-style: bold;
+    position: absolute;
+    top: 7px;
+    left: 6px;
+}
+
+.restuarantsshow {
+    position: absolute;
+    background-color: rgb(255, 254, 254);
+    color: rgb(140, 131, 131);
+    top: 10px;
+    left: 282px;
+}
+
+.restuarantsscroll {
+    position: absolute;
+    height: 228px;
+    width: 352px;
+    top: 328px;
+    left: 4px;
+}
+
+.res1ve {
+    position: absolute;
+    height: 92px;
+    width: 331px;
+    top: 3px;
+    left: 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.res1 {
+    position: absolute;
+    width: 86px;
+    height: 73px;
+    top: 10px;
+    left: 3px;
+    color: rgb(17, 16, 16);
+    background-color: rgb(238, 232, 232);
+    background-image: url('project://database/Assets/assets/cafe2.png?fileID=2800000&guid=0ec81584a701c0846a10e3ed92385108&type=3#cafe2');
+}
+
+.res1label {
+    position: absolute;
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    top: 12px;
+    left: 97px;
+    -unity-font-style: bold;
+    width: 140px;
+}
+
+.res1food {
+    color: rgb(103, 97, 97);
+    position: absolute;
+    top: 32px;
+    left: 98px;
+}
+
+.res1rating {
+    position: absolute;
+    color: rgb(241, 21, 21);
+    top: 49px;
+    left: 102px;
+}
+
+.res2ve {
+    position: absolute;
+    height: 92px;
+    width: 331px;
+    top: 97px;
+    left: 7px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.res2 {
+    position: absolute;
+    width: 86px;
+    height: 73px;
+    top: 10px;
+    left: 3px;
+    color: rgb(17, 16, 16);
+    background-color: rgb(238, 232, 232);
+    background-image: url('project://database/Assets/assets/coffee.jpg?fileID=2800000&guid=ef2a3d96b0cf5c54b851d153a9917357&type=3#coffee');
+}
+
+.res2label {
+    position: absolute;
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    top: 12px;
+    left: 100px;
+    -unity-font-style: bold;
+    width: 183px;
+}
+
+.res2rating {
+    position: absolute;
+    color: rgb(241, 21, 21);
+    top: 49px;
+    left: 102px;
+}
+
+.res3ve {
+    position: absolute;
+    height: 92px;
+    width: 331px;
+    top: 183px;
+    left: 7px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.res3 {
+    position: absolute;
+    width: 79px;
+    height: 69px;
+    top: 12px;
+    left: 2px;
+    color: rgb(17, 16, 16);
+    background-color: rgb(238, 232, 232);
+    background-image: url('project://database/Assets/assets/cafe3.jpg?fileID=2800000&guid=9112b309dbcd28c4e815deae076bec26&type=3#cafe3');
+}
+
+.res3label {
+    position: absolute;
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    top: 12px;
+    left: 100px;
+    -unity-font-style: bold;
+    width: 121px;
+}
+
+.res3food {
+    color: rgb(103, 97, 97);
+    position: absolute;
+    top: 32px;
+    left: 98px;
+}
+
+.res3rating {
+    position: absolute;
+    color: rgb(241, 21, 21);
+    top: 49px;
+    left: 102px;
+}
+
+.res4ve {
+    position: absolute;
+    height: 92px;
+    width: 331px;
+    top: 269px;
+    left: 7px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.res4 {
+    position: absolute;
+    width: 86px;
+    height: 73px;
+    top: 10px;
+    left: 3px;
+    color: rgb(17, 16, 16);
+    background-color: rgb(238, 232, 232);
+    background-image: url('project://database/Assets/assets/cafe.jpg?fileID=2800000&guid=b43eb8533d9d08541ad34d6e566edf00&type=3#cafe');
+}
+
+.res4label {
+    position: absolute;
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    top: 12px;
+    left: 100px;
+    -unity-font-style: bold;
+    width: 98px;
+}
+
+.res4food {
+    color: rgb(103, 97, 97);
+    position: absolute;
+    top: 32px;
+    left: 98px;
+}
+
+.res4rating {
+    position: absolute;
+    color: rgb(241, 21, 21);
+    top: 49px;
+    left: 102px;
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    top: 550px;
+    left: 16px;
+    height: 91px;
+}
+
+.resbutton {
+    top: 12px;
+    left: 13px;
+}
+
+.res {
+}
+
+.reslabel {
+    top: 46px;
+    left: 5px;
+}
+
+.offerbutton {
+    top: 12px;
+    left: 118px;
+}
+
+.off {
+    background-image: url('project://database/Assets/assets/offer.png?fileID=2800000&guid=d5758f4df70ed3345b7b2b8d42008934&type=3#offer');
+    height: 30px;
+    width: 36px;
+}
+
+.offerlabel {
+    top: 46px;
+    left: 5px;
+}
+
+.offlabel {
+}
+
+.accountbutton {
+    top: 14px;
+    left: 227px;
+}
+
+.accounts {
+    background-image: url('project://database/Assets/assets/account.png?fileID=2800000&guid=1b7ffa4690dc80046ba55f0250e38092&type=3#account');
+}
+
+.accountslabel {
+    top: 46px;
+    left: 5px;
+}
+
+.mainscreen {
+    position: absolute;
+    height: 637px;
+    width: 340px;
+    background-color: rgb(253, 253, 253);
+}
+
+.coverphoto {
+    position: absolute;
+    height: 246px;
+    width: 341px;
+    left: 2px;
+    background-image: url('project://database/Assets/assets/burgers.jpg?fileID=2800000&guid=d1f89c47be0472a4a8b1c28bd15da07f&type=3#burgers');
+    top: 0;
+}
+
+.backbutton {
+    position: absolute;
+    background-color: rgb(12, 11, 11);
+    background-image: url('project://database/Assets/assets/backbutton.png?fileID=2800000&guid=8dc4e5686a3aea24ca97ba4c33a7e73a&type=3#backbutton');
+    top: 11px;
+    left: 6px;
+    width: 28px;
+    height: 25px;
+}
+
+.burgerlabel {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    -unity-font-style: bold;
+    top: 185px;
+    left: 11px;
+    right: 207px;
+}
+
+.bottomve {
+    position: absolute;
+    height: 397px;
+    width: 337px;
+    top: 244px;
+    left: 1px;
+}
+
+.restopve {
+    position: absolute;
+    height: 44px;
+    width: 341px;
+    top: -1px;
+    left: 0;
+}
+
+.noofrestuarants {
+    color: rgb(10, 9, 9);
+    width: 103px;
+    position: absolute;
+    -unity-font-style: bold;
+    top: 11px;
+    left: 6px;
+}
+
+.filtersbutton {
+    position: absolute;
+    background-image: url('project://database/Assets/assets/filters.png?fileID=2800000&guid=22d731f1fa19f1941826823727f8780a&type=3#filters');
+    top: 8px;
+    left: 291px;
+    width: 31px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.burgerresscroll {
+    top: 37px;
+    left: 8px;
+    width: 317px;
+    height: 338px;
+}
+
+.resbutton1 {
+    position: absolute;
+    height: 81px;
+    width: 284px;
+    background-color: rgb(255, 255, 255);
+    top: 8px;
+    left: 5px;
+}
+
+.res1photo {
+    position: absolute;
+    height: 60px;
+    width: 73px;
+    top: 9px;
+    left: 12px;
+    background-image: url('project://database/Assets/assets/burger3.png?fileID=2800000&guid=33e066c3038e0944db947d4339db249e&type=3#burger3');
+    -unity-background-image-tint-color: rgb(241, 241, 241);
+}
+
+.resbutton1label {
+    top: 12px;
+    left: 78px;
+}
+
+.resbutton1food {
+    top: 32px;
+    left: 96px;
+}
+
+.resbutton1rating {
+    top: 49px;
+    left: 98px;
+}
+
+.resbutton2 {
+    position: absolute;
+    height: 81px;
+    width: 284px;
+    background-color: rgb(255, 255, 255);
+    top: 101px;
+    left: 3px;
+}
+
+.res2photo {
+    position: absolute;
+    height: 60px;
+    width: 73px;
+    top: 9px;
+    left: 12px;
+    background-image: url('project://database/Assets/assets/burger2.jpg?fileID=2800000&guid=5de815c9e094d7d44899cb952fd1084f&type=3#burger2');
+    -unity-background-image-tint-color: rgb(241, 241, 241);
+}
+
+.resbutton2label {
+    top: 11px;
+    left: 95px;
+}
+
+.resbutton2food {
+    top: 32px;
+    left: 96px;
+}
+
+.resbutton2rating {
+    top: 49px;
+    left: 98px;
+}
+
+.resbutton3 {
+    position: absolute;
+    height: 81px;
+    width: 284px;
+    background-color: rgb(255, 255, 255);
+    top: 191px;
+    left: 3px;
+}
+
+.res3photo {
+    position: absolute;
+    height: 60px;
+    width: 73px;
+    top: 9px;
+    left: 12px;
+    background-image: url('project://database/Assets/assets/burger1.png?fileID=2800000&guid=bbd173a49c894d042bd57ad73ce65fb6&type=3#burger1');
+    -unity-background-image-tint-color: rgb(241, 241, 241);
+}
+
+.resbutton3label {
+    top: 11px;
+    left: 90px;
+}
+
+.resbutton3food {
+    top: 32px;
+    left: 96px;
+}
+
+.resbutton3rating {
+    top: 49px;
+    left: 98px;
+}
+
+.res4button {
+    position: absolute;
+    height: 81px;
+    width: 284px;
+    background-color: rgb(255, 255, 255);
+    top: 282px;
+    left: 3px;
+}
+
+.res4photo {
+    position: absolute;
+    height: 60px;
+    width: 73px;
+    top: 9px;
+    left: 12px;
+    background-image: url('project://database/Assets/assets/burger.jpg?fileID=2800000&guid=81abda76c5b46544da647d7ac264e64e&type=3#burger');
+    -unity-background-image-tint-color: rgb(241, 241, 241);
+}
+
+.resbutton4label {
+    top: 11px;
+    left: 82px;
+}
+
+.resbutton4food {
+    top: 32px;
+    left: 96px;
+}
+
+.resbutton4rating {
+    top: 49px;
+    left: 98px;
+}
+
+.recipeburgerlabel {
+    top: 72px;
+    right: 3px;
+    left: 0;
+    color: rgb(14, 14, 14);
+    font-size: 12px;
+    -unity-font-style: normal;
+}
+
+.recipeoffers {
+    top: 18px;
+    left: 18px;
+}
+
+.recipemainscreen {
+    height: 638px;
+    width: 356px;
+}
+
+.choicesmainscreeen {
+    width: 370px;
+    top: 4px;
+    left: 2px;
+    height: 653px;
+}
+
+.icecreambutton {
+    background-color: rgb(238, 226, 226);
+}

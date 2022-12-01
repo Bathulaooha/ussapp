@@ -1,0 +1,55 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/recipeuss.uss?fileID=7433441132597879392&amp;guid=8e4751ded85f3b842be5cb2776035c2a&amp;type=3#recipeuss" />
+    <ui:VisualElement class="mainscreen recipemainscreen" style="width: 370px; border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; height: 620px;">
+        <ui:Label text="Delivering to" display-tooltip-when-elided="true" class="delivery" style="top: 1px; left: 10px; height: 22px; width: 113px;" />
+        <ui:Label text="Current location" display-tooltip-when-elided="true" class="location" style="width: 192px; top: 37px; left: 8px;" />
+        <ui:DropdownField index="-1" choices="kurnool,delhi,Chennai,Mumbai" class="locationdropdown" style="font-size: 12px; top: 42px; left: 200px; width: 121px; height: 30px;" />
+        <ui:TextField picking-mode="Ignore" class="searchbar" style="top: 85px; left: 9px; color: rgb(29, 27, 27); height: 39px;" />
+        <ui:Button display-tooltip-when-elided="true" class="filters" style="top: 88px; left: 321px;" />
+        <ui:ScrollView class="topscroll" style="height: 128px; width: 357px; top: 136px; left: 6px;">
+            <ui:VisualElement class="offers" style="width: 85px; top: 5px; left: 4px;">
+                <ui:Label text="Offers" display-tooltip-when-elided="true" class="offerslabel" />
+            </ui:VisualElement>
+            <ui:VisualElement class="asian" style="width: 87px; top: 7px; left: 204px;">
+                <ui:Label text="Asian" display-tooltip-when-elided="true" class="asianlabel" />
+            </ui:VisualElement>
+            <ui:VisualElement class="pizza" style="width: 81px; top: 2px; left: 304px;">
+                <ui:Label text="Pizza" display-tooltip-when-elided="true" class="pizzalabel" />
+            </ui:VisualElement>
+            <ui:VisualElement class="burger" style="width: 92px; top: 5px; left: 98px;">
+                <ui:Label text="Burgers" display-tooltip-when-elided="true" class="burgerlabel recipeburgerlabel" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+        <ui:VisualElement class="navbar" style="top: 556px; left: 21px; width: 335px; height: 52px;">
+            <ui:Button display-tooltip-when-elided="true" text=" " class="button button1" style="height: 32px; top: 5px; width: 40px; left: 24px;" />
+            <ui:Button display-tooltip-when-elided="true" text=" " class="button button1" style="height: 32px; top: 5px; width: 40px; left: 140px;" />
+            <ui:Button display-tooltip-when-elided="true" text=" " class="button button1" style="height: 32px; top: 6px; width: 40px; left: 257px;" />
+        </ui:VisualElement>
+        <ui:ScrollView class="midscrollview" style="height: 290px; top: 261px; left: 4px; width: 364px;">
+            <ui:VisualElement class="cafe2ve" style="top: 3px; left: 2px;">
+                <ui:Label text="Hollywood Starz Cafe" display-tooltip-when-elided="true" class="cafe1label cafe2label" style="height: 25px;" />
+                <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="cafe1rating cafe2rating" />
+                <ui:Label text="cafe.Western Food-$$" display-tooltip-when-elided="true" class="cafe1food cafe2food" style="top: 219px; left: 119px;" />
+                <ui:Button display-tooltip-when-elided="true" class="cafe2button icecreambutton" style="background-image: url(&apos;project://database/Assets/Resources/cafe.jpg?fileID=2800000&amp;guid=b43eb8533d9d08541ad34d6e566edf00&amp;type=3#cafe&apos;); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                    <ui:Label text="20-30 min" display-tooltip-when-elided="true" class="cafe1time cafe2time" style="top: 152px; left: 225px; width: 82px;" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement class="cafe2ve" style="top: 252px; left: 3px;">
+                <ui:Label text="Nextdoor Thai" display-tooltip-when-elided="true" class="cafe1label cafe2label" />
+                <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="cafe1rating cafe2rating" />
+                <ui:Label text="cafe.Western Food-$$" display-tooltip-when-elided="true" class="cafe1food cafe2food" style="top: 219px; left: 120px;" />
+                <ui:Button display-tooltip-when-elided="true" class="cafe2button icecreambutton" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                    <ui:Label text="20-30 min" display-tooltip-when-elided="true" class="cafe1time cafe2time" style="top: 154px; left: 222px; width: 83px;" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement class="cafe3ve" style="top: 509px; left: 0;">
+                <ui:Label text="Super Good Cafe" display-tooltip-when-elided="true" class="cafe1label cafe3label" />
+                <ui:Label text="4.9(124 ratings)" display-tooltip-when-elided="true" class="cafe1rating cafe3rating" />
+                <ui:Label text="cafe.Western Food-$$" display-tooltip-when-elided="true" class="cafe1food cafe3food" style="top: 219px; left: 116px;" />
+                <ui:Button display-tooltip-when-elided="true" class="cafe3button" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                    <ui:Label text="20-30 min" display-tooltip-when-elided="true" class="cafe1time cafe3time" style="top: 154px; left: 229px; width: 80px;" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>
